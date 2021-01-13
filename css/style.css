@@ -1,0 +1,76 @@
+/* font-family: 'Bebas Neue', cursive; for h
+font-family: 'Roboto', sans-serif; for Body*/
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* NAvbar */
+.bg-nav-color {
+  background-color: #fff9f4;
+}
+.home-navbar-items a {
+  padding: 5px;
+}
+#home .home-navbar-item {
+  padding: 0 1.5rem;
+}
+/* Hero-Area */
+.hero-area h1 {
+  color: #fa804c;
+  font-size: 80px;
+  line-height: 80px;
+}
+.hero-area h1 span {
+  color: #363958;
+}
+.hero-area p {
+  font-size: 16px;
+}
+.hero-area-button .btn-buy-now,
+#product .btn-buy-now {
+  background-color: #3d4ff3;
+  color: #ffff;
+  padding: 13px 25px;
+  border-radius: 8px;
+}
+/* product */
+
+#product h1 {
+  color: #363958;
+}
+#product h5 {
+  font-weight: 700;
+  color: #363958;
+}
+#product p {
+  color: #3e3e3e;
+  font-size: 1rem;
+}
+#product img {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+#product .product-card {
+  padding: 5px;
+  border-radius: 10px;
+}
+/* End Of Product */
+
+/* Gallery */
+
+#gallery img {
+  height: 300px;
+  width: 100%;
+}
+.gallery-img-holder {
+  overflow: hidden;
+  box-shadow: 2px 2px 4px 2px rgba(173, 171, 171, 0.726);
+}
+#gallery img:hover {
+  transform: scale(1.3);
+  transition: 2s cubic-bezier(0.86, 0, 0.07, 1);
+}
