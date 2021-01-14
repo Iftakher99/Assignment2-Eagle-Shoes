@@ -37,6 +37,14 @@ body {
   padding: 13px 25px;
   border-radius: 8px;
 }
+.hero-area-button .btn-buy-now:hover,
+#product .btn-buy-now:hover {
+  box-shadow: 2px 1px 8px #3d4ff3;
+}
+.hero-area-button .btn-buy-now:hover,
+#product .btn-buy-now:active {
+  box-shadow: 2px 1px 8px #3d4ff3;
+}
 /* product */
 
 #product h1 {
@@ -44,6 +52,7 @@ body {
 }
 #product h3 {
   color: #fa804c;
+  font-weight: 700;
 }
 #product h5 {
   font-weight: 700;
