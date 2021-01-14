@@ -58,7 +58,7 @@ body {
   border-radius: 10px;
 }
 #product .product-card {
-  padding: 5px;
+  padding: 10px;
   border-radius: 10px;
   border: 1px solid whitesmoke;
   box-shadow: 2px 1px 3px lightgray;
@@ -84,6 +84,7 @@ body {
 /* About Us */
 #about-us .about-us-item img {
   width: 20%;
+  padding: 10px;
 }
 #about-us .about-us-item {
   box-shadow: 2px 2px 4px 2px rgba(223, 221, 221, 0.726);
